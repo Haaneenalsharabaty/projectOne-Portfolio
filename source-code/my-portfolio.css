@@ -1,0 +1,747 @@
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:linear-gradient(rgb(255,255,255,0.7),rgb(255,255,255,0.63) ), url(pic/open_source.jpg) ;
+    background-size: cover;
+    
+
+    
+}
+
+
+nav{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index: 99;
+    
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1em;
+    width:100%;
+    height: 5em;
+}
+.nav-bar img{
+    width: 8em;
+    height: 8em;
+    border-radius: 50%; 
+    padding-bottom: 1em;
+
+     
+  
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    color: turquoise;
+}
+.nav-bar li{
+    padding: 2em;
+}
+.nav-bar li:hover{
+    color: rgb(105, 160, 185);
+    cursor: pointer;
+    border-bottom: 0.2em solid rgb(105, 160, 185);
+
+}
+.nav-bar li a:hover{
+    color: rgb(105, 160, 185);
+
+}
+    
+.nav-bar a{
+ text-decoration: none;
+ color: #507776;
+ font-style: 2em;
+ font-weight: 600;
+ 
+}
+.nav-bar i{
+    display: none;
+
+}
+
+@media only screen and (max-width:900px ){
+    .nav-bar img{
+        width: 6em;
+        height: 6em;
+    }
+    .nav-bar{
+        height: 3.5em;
+        display: flex;
+        justify-content: space-between;
+       }
+        .nav-bar ul{
+            display: none;}
+         .nav-bar i {display:inline
+            }
+
+.nav-bar i {
+    line-height: 2.5em;
+
+    display:inline;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    background:linear-gradient( rgb(227, 255, 254),rgb(255,255,255,0.7),rgb(255,255,255,0.9) );
+    /* margin-right: 1em; */
+    
+}
+
+}
+@media only screen and (max-width: 600px) {
+    .nav-bar img{
+        width: 6em;
+        height: 6em;
+    }
+    .nav-bar{
+     
+        width:100%;
+        height: 3.5em;
+        display: flex;
+        justify-content: space-between;
+        }
+    .nav-bar ul{
+        display: none;}
+     .nav-bar i {display:block;
+        font-size: 1.5em;
+        text-align: end;
+        
+        
+        }
+    
+   
+        
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* intro  */
+.sectionone{align-items: center;}
+
+.text{
+    padding:1em;
+    display: flex;
+   
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    /* background-color: rgb(227, 255, 254);; */
+    
+    width: 60%;
+    height: 20em;
+    margin-top: 20%;
+    /* margin-left: 20%; */
+    text-align: left;
+    font-family: 'Italianno', cursive; ;
+    color: teal;
+    border-radius: 10%;
+    background:linear-gradient( rgb(227, 255, 254),rgb(255,255,255,0.7),rgb(255,255,255,0.9) );
+    
+}
+.text span{
+    text-align: left;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #507776;
+}
+.text h1{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 0.1em;}
+.text p{
+    display: flex;
+    align-items: flex-end;
+        font-size: 2.8em;
+        text-align: right;
+        letter-spacing: 0.1em;
+        color: teal;
+       
+    }
+.myimage img{
+    margin-top: 40%;
+    margin-right: 20%;
+    margin-left: 0.75rem;
+    
+    width: 80%;
+    height: 50%;
+    
+}
+@media only screen and (max-width:900px){
+    .text
+    {display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        width: 60%;
+    height: 40%;}
+    .text h1{
+        font-size: 1em;
+        text-align: center;
+    }
+    .text p{
+        width: 7em;
+        font-size: 1em;
+        
+    }
+    .text span{
+        font-size: 1.2em;
+    }
+    .myimage img{
+        width: 55%;
+    height: 65%;
+   
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+.text{width: 60%;}
+    .text h1{
+        width: 60%;
+        font-size: 1em;
+    }
+    .text p{
+        width: 50%;
+height: 50%;
+        font-size: 1em;
+       text-align: right;
+    }
+    .myimage img{
+        width: 50%;
+        height: 50%;
+       border-bottom: none;
+       margin-right:2em;
+       
+    }}
+   
+
+    /* Abot me */
+
+    .Aboutmem{
+        background-color: rgb(223, 253, 253);
+        display: flex;
+        flex-direction: column;
+    }
+    .AboutMeinfo p{
+        display: flex;
+        justify-content: center;
+    }
+    .AboutMeinfo{
+        display: flex;
+        justify-content: center;
+        
+      
+    }
+    
+  
+    
+
+.titileabout h2{
+    margin-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Italianno', cursive; ;
+    letter-spacing: 0.05em;
+    color:#507776;
+    font-weight: bolder;
+    
+
+}
+
+.AboutMeinfo p{
+    padding: 2em;
+    border-radius: 10%;
+    font-size: 1.5em;
+    background-color: #507776;;
+    width: 40%;
+    height: 70%;
+    font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+    color: rgb(214, 221, 221);
+   
+   
+   
+
+}
+@media only screen and (max-width: 600px) {
+
+.titileabout h2{font-size: 2em;}
+.AboutMeinfo p{
+    width: 70%;
+    font-family: 1em;}}
+    @media only screen and (max-width: 426px) {
+
+.AboutMeinfo p{font-size: 1em;}}
+ 
+
+
+
+   /* serivces  */
+   .myservices{
+       display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+   }
+
+.sectiontwo{
+    display: flex;
+    background-color: #507776;
+    
+}
+.servicestitle h3{
+    margin-top: 1em ;
+    text-align: center;
+    font-family: 'Italianno', cursive; ;
+    font-size: 4em;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+  
+     color:rgb(214, 221, 221);
+    
+}
+
+ .mainservices{
+     margin-bottom: 4em;
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+    align-items: center;
+     margin-top: 3em;
+     padding: 1em;
+ }   
+
+
+
+
+
+.servvices2{
+    /* margin-right: 2em; */
+    display: flex;
+    border-radius: 5%;
+    padding: 2em;
+
+}
+
+
+
+
+
+
+.servvices2 h3{   
+    font-family: 'Italianno', cursive; ;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    
+
+}
+
+.servvices2{
+    display: block;
+    width: 50%;
+    text-align: center;
+    background-color:rgb(190, 218, 218);
+    /* padding: 2em; */
+    color:  #507776;;
+}
+@media only screen and (max-width: 600px) {
+    .servicestitle h3{
+font-size: 2em;}
+.servvices2 h3{   
+
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+    
+    .servvices2 p{ 
+        
+
+        font-size: 0.5em;
+    }
+  
+
+   
+
+        }
+    .servvices2{ margin-left: 0.8em;
+           
+        }
+       
+
+
+
+        /* <!-- qualification   */
+        .qulifactions{background-color: rgb(223, 253, 253);
+
+        }
+        .qualification{
+            
+            display: flex;
+            flex-direction: column;
+            
+        }
+    .qualification h3{   
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        font-family: 'Italianno', cursive; ;
+        font-size: 4em;
+        letter-spacing: 0.05em;
+    font-weight: bold;
+color: #507776;}
+    
+    .qulificationtitle{
+        display: flex;
+        justify-content: center
+    }
+    .qulificationtitle  p{
+        padding:1em;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+        
+    
+        border-radius: 10px;
+        font-size: 1.5em;
+        background-color: #507776;;
+        width: 50%;
+        height: 30%;
+       
+      text-align: center;
+        color: rgb(216, 233, 233);
+        
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+   
+    @media only screen and (max-width: 426px) {
+        .qualification h3{font-size: 2em};
+
+        .imageq img{
+            width: 10em;
+            height: 10em;}
+            .qulificationtitle  p{
+                width: 80%;
+                font-size: 1.2em;
+            font-weight: lighter;}
+            }
+
+            /* project */
+            .myprojects{
+                background-color: #507776;;
+            }
+
+            .Projects h3{
+                padding-top: 1em;
+                padding-bottom: 1em;
+                text-align: center;
+                font-family: 'Italianno', cursive; ;
+                font-size: 4em;
+                letter-spacing: 0.08em;
+                font-weight: 600;
+            
+            color:rgb(214, 221, 221);
+    
+
+            }
+            .projectpic{
+                
+                
+                display: flex;
+                justify-content: center;
+            }
+            .projectpic p{
+                display: flex;
+        justify-content: center;
+
+            }
+           
+            .flip-box {
+                background-color: transparent;
+                width: 25em;
+                height: 19em;
+                border: 1px solid #f1f1f1;
+                perspective: 1000px;
+            margin-bottom: 2em;}
+                
+                .flip-box-inner {
+                     
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    transition: transform 0.8s;
+                    transform-style: preserve-3d;
+                  }
+                  .flip-box:hover .flip-box-inner {
+                    transform: rotateY(180deg);
+                  }
+                  .flip-box-front, .flip-box-back {
+                      
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    -webkit-backface-visibility: hidden; /* Safari */
+                    backface-visibility: hidden;
+                  }
+                  .flip-box-back h2 {
+                      
+                    background-color: rgb(227, 255, 254);
+                    color:  teal;
+                    text-align: center;
+                    font-family: 'Italianno', cursive;
+                    border-radius: 10%;
+                    letter-spacing: .1;
+                  font-size: 3em;
+
+                  } 
+                  .flip-box-back h4 {
+                      margin-top: 1em;
+                   
+                  background-color: rgb(227, 255, 254);
+                  color:  teal;
+                  text-align:center;
+                  font-family: 'Times New Roman', Times, serif;
+                  border-radius: 10%;
+                  letter-spacing: .1;
+                font-size: 2em;
+
+                } 
+                      .flip-box-back {
+                        
+                    background-color:  #507776;;
+                    color: white;
+                    transform: rotateY(180deg);}
+                    @media only screen and (max-width: 426px) {
+                        .projectpic{
+                            width: 100%;
+                        }
+                        .flip-box{width: 90%;}
+
+                  .flip-box-back {
+                      display: flex;
+                      justify-content: center;
+
+                        width: 25%;
+                        height: 25%;
+                        font-size: 1.5em;
+                        border-radius: 5%;
+                        text-align: center;
+                        align-items: center;
+                    }
+                    .flip-box-inner{
+                        display: flex;
+                        justify-content: center;
+                        height: 19em;
+                        width: 25em;
+                        width: 70%;
+                        height: 70%;
+                    }
+                    .myprojects img{
+                        height: 20em;
+                        width: 19em;
+                        
+                    }
+                   
+                    .Projects h3{
+                        font-size: 2.5em;
+                        font-weight: 600;
+                    letter-spacing: .1;}
+                }
+                #test{
+                    height: 19em;
+                    width: 21em;
+
+                }
+                @media only screen and (max-width: 321px) {
+                    #test{
+                        height: 19em;
+                        width: 15em;}}
+    
+
+                        
+                /* Testimonials */
+                .Testimonials{
+                    background-color: rgb(223, 253, 253);;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-bottom: 1em;
+                    
+
+                }
+                .imgslider{
+                    margin-top: 1em;
+                    display: flex;
+                    justify-content: center;
+                }
+                .titlefeedback h3{
+                    margin-top: 1em;
+                        text-align: center;
+                        font-family: 'Italianno', cursive; ;
+                        font-size: 4em;
+                        letter-spacing: 0.08em;
+                    font-weight: bold;
+                    color: #507776;
+                    padding-bottom: 1em;
+        
+                    }
+                    @media only screen and (max-width: 600px) {
+                        
+                        .titlefeedback h3{
+                            font-size: 2em;}}
+                            @media only screen and (max-width: 426px) {
+                                .titlefeedback h3{
+                                    font-size: 2em;}
+                                .imgslider img{
+                                    width: 100%;
+                                    
+                                }
+                            }
+                     /* end */
+
+                     .footer1{
+                        background-color: #507776;;
+                         display: flex;
+                         flex-direction: column;
+                     }
+                     .footertitle{
+                         display: flex;
+                         justify-content: center;
+                        
+                     }
+                   .footertitle h2{
+                    color: rgb(216, 241, 241);
+                        margin-top: 4em;
+                        text-align: center;
+                        font-family: 'Italianno', cursive; ;
+                        font-size: 4em;
+                        letter-spacing: 0.08em;
+                    font-weight: bold;
+                     }
+                     .footerbody{
+                        font-family: 'Times New Roman', Times, serif;
+                         display: flex;
+                         
+                         margin-top: 6em;
+                     }
+                     .contact{
+                        margin: 2em;
+                     }
+                     .contact p{
+                         font-size: 1em;
+                        
+                        font-family: 'Times New Roman', Times, serif;
+                        color: rgb(216, 241, 241);
+                     }
+                     .footerbody img{
+                         width: 1em;
+                     }
+                     .form {
+                         
+                        
+                        font-family: 'Times New Roman', Times, serif;
+                         width: 80%;
+                         height: 100%;
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: center;
+                         border: rgb(133, 202, 230);
+                         border-style: solid;
+                         
+                       
+                         background-color: rgb(193, 252, 246);
+                         text-align: center;
+                        
+                     }
+                     .form input{
+                         text-align: center;
+                                             background-color: rgb(142, 192, 192);
+                         width: 99%;
+                         
+                
+                     }
+                     .form textarea{
+                        text-align: center;
+                       
+                        background-color: rgb(142, 192, 192);
+                        width:99%;
+                    
+                        
+                     }
+                     .media ul{
+                        margin-top: 0.8em;
+                         
+                         display: flex;
+                         justify-content: space-evenly;
+                         list-style-type: none;
+                         height: 99%;
+                     }
+                    .media i{
+                        
+                        color: rgb(105, 160, 185);
+                        font-size: 3em;
+                    }
+                     .media{
+                    
+                         background-color:white;
+                         width: 100%;
+                         height: 100%;
+                         color: 
+                         teal;
+                     }
+                     .media li:hover {
+                         transform: rotate(35deg);
+                     }
+                     .send input{
+                        background-color: rgb(44, 85, 85);
+                        width: fit-content;
+                         color: rgb(190, 235, 235);
+                         font-weight: bold;
+                         font-family: 'Times New Roman', Times, serif;
+                         text-decoration: black;
+                     }
+                     @media only screen and (max-width: 600px) {
+                        .footertitle h2{
+                            font-size: 2em;}
+                            .footerbody
+                        {display: flex;
+                            flex-direction: column;
+                        }
+                        .form fieldset{
+                            width: 14em;
+                        }
+                        .media i{
+                            color: rgb(105, 160, 185);
+                            font-size: 2em;
+                        }
+                        .form { width: 100%;
+                        }
+                        
+                        }
+                        
